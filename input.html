@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/input.css">
+    <title>Input</title>
+</head>
+<body>
+    <form name="form">
+        <div class="container">
+            <h2 class="title">Task move</h2>
+            <p class="description">Значення переміщується з одного інпута в інший тільки якщо там є значення</p>
+            <div class="size">
+                <input type="text" class="letter" name="enter">
+                <button type="button" onclick="showText()" class="button-move">move</button>
+                <input type="text" class="letter" name="exit">
+            </div>
+            <h2 class="title">Task placeholder</h2>
+            <p class="description">Значення переміщується в placeholder тільки якщо там є значення</p>
+            <input type="text" class="text-placeholder" name="textplaceholder">
+        </div>
+    </form>
+
+    <script src="js/input.js"></script>
+</body>
+</html>

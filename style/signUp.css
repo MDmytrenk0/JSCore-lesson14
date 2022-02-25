@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* -----------------------------box1---------------------------- */
+.box1 {
+    border: 1px solid rgb(197, 192, 192);
+    border-radius: 4px;
+    width: 60%;
+    margin: 20px auto;
+}
+.header1 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(70, 233, 124);
+}
+.main1 {
+    margin: 23px;
+}
+
+.title {
+    padding-bottom: 10px;
+}
+.information,
+.choose {
+    width: 100%;
+    height: 30px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.information:focus,
+.choose:focus {
+    outline: none;
+    border-color: #007bff; 
+    box-shadow: 0 0 0 2px rgba(38, 143, 255, 0.5); 
+}
+.womanp {
+    margin-left: 15px;
+}
+.title1 {
+    margin-top: 16px;
+}
+.signup {
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    border: 1px solid #70e470;
+    background-color: #47d447;
+}
+/* -----------------------------box2---------------------------- */
+.box2 {
+    display: none;
+    border: 1px solid rgb(197, 192, 192);
+    border-radius: 4px;
+    width: 50%;
+    margin: 40px auto;
+}
+.header2 {
+    height: 100px;
+    background-color: rgb(70, 233, 124);
+}
+.main2 {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxImage {
+    position: relative;
+    top: -50px;
+    height: 120px;
+    width: 124px;
+    background-color: white;
+    border-radius: 83px;
+}
+.image {
+    position: absolute;
+    right: 9px;
+    top: 7px;
+}
+.signout {
+    width: 84px;
+    height: 33px;
+    margin-top: 50px;
+    border: 1px solid #70e470;
+    color: #70e470;
+    background-color: white;
+}
+.signout:focus {
+    color: white;
+    background-color: #70e470;
+}
+
+.footer2 {
+    height: 50px;
+    background-color: rgb(70, 233, 124);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uil {
+    color: white;
+    font-size: 26px;
+}
